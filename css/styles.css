@@ -1,0 +1,79 @@
+*{
+
+}
+
+.td-yellow{
+    color: black;
+    background-color: yellow;
+}
+
+.rowone{
+    background-color: blue;
+    color: khaki;
+}
+.rowtwo{
+    background-color: green;
+    color:black;
+}
+.rowthree{
+    background-color:turquoise;
+    color: black;
+}
+.rowfour{
+    background-color: blue;
+    color: khaki;
+}
+
+form{
+    border: 1px solid black;
+    width: 650px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(197, 183, 165);
+    box-shadow: 5px 2px 7px rgb(28, 41, 31);
+    text-decoration-color: rgb(255, 240, 240);
+}
+
+input{
+    border-radius: 5px ;
+}
+
+button{
+    height: 50px;
+    
+    background-color: darkgreen;
+    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50%;
+    align-items: right;
+    
+}
+
+button:hover{
+    background-color: chartreuse;
+    flex-grow: inherit;
+}
+
+form:hover{
+    box-shadow: 10px 11px 10px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+form::after{
+    box-shadow: 10px 5px 4px;
+}
+
+@keyframes move {
+    0% {background-color: rgb(252, 252, 252);}
+    25% {background-color: rgb(160, 181, 23);}
+    34% {background-color: rgb(228, 19, 19);}
+    49% {background-color: rgb(6, 203, 6);}
+}
+
+.cars{
+    height: 109px;
+    width: 145px;
+}
